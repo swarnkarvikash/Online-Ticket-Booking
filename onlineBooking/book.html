@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        h1{
+            text-align: center;
+            color: rgb(37, 174, 128);
+        }
+        .detail{
+            background-color: rgb(250, 243, 241);
+            text-align: center;
+                padding: 20px;
+                border: 2px solid rgb(31, 165, 231);
+                margin: 10px;
+                border-radius: 20px;
+        }
+        button{
+            text-align: center;
+            padding: 7px 25px;
+            border-radius: 2px;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 10px;
+            background-color: rgb(116, 96, 197);
+            color: #ffffff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        button:hover{
+            background-color: rgb(176, 123, 225);
+            color: black;
+        }
+        label{
+            color: rgb(23, 141, 141);
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input{
+            padding: 6px 8px;
+            border-radius: 10px;
+            border-color: rgb(127, 181, 227);
+        }
+       select option{
+            padding: 6px 8px;
+            border-radius: 10px;
+            border-color: rgb(127, 181, 227);
+        }
+        .pd{
+            padding: 30px;
+            border: 3px solid;
+            border-radius: 10px;
+            border-color: aqua;
+            background-color: rgb(240, 203, 157);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="pd">
+    <h1>Passenger Details</h1>
+    <div class="detail">
+        <form action="type">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="John"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <label for="lname">Mobile No:</label>
+            <input type="text" id="lname" name="lname" value="945205xxxx"><br><br>
+            <label for="lname">Gender:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Male</option>
+                <option value="saab">Female</option>
+                <option value="opel">Other</option>
+              </select>
+          <br><br>
+            <label for="lname">Birth Preference:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Upper</option>
+                <option value="saab">Window</option>
+                <option value="opel">Side upper</option>
+                <option value="audi">Lower</option>
+              </select><br><br>
+              <form action="https://pay.google.com/about/">
+           <button formaction="https://pay.google.com/about/" class="conf">Confirm / Pay</button>
+          </form>
+    </div>
+</div>
+<script>
+    const myDiv=document.getElementsByClassName('conf');
+    myDiv.addEventListener('click', () => {
+        alert('Ticket Is Booked');
+        //hex color
+       
+    })</script>
+</body>
+</html>

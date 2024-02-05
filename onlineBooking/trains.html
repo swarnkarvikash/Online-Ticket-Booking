@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .xy {
+            background: url(https://www.wallpapertip.com/wmimgs/155-1554570_indian-train-images-hd.jpg);
+            opacity:100%;
+            background-repeat: no-repeat;
+            height: 560PX;
+            background-size: cover;
+        }
+
+        nav {
+            top: 0px;
+            position: fixed;
+            left: 0px;
+            right: 0px;
+            background: rgb(131, 236, 115);
+            padding: 10px 0px;
+            margin-top: 0px;
+
+        }
+
+        nav .menu {
+            max-width: 1250px;
+
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 10px;
+        }
+
+        nav ul {
+            display: inline-flex;
+        }
+
+        nav .menu .logo {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 30px;
+            color: rgb(246, 93, 93);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        nav .menu .logo a{
+            text-decoration: none;
+        }
+
+        .menu ul li {
+            list-style: none;
+            margin-left: 25px;
+            font-family: sans-serif;
+            font-weight: 200;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 17px;
+            padding: 8px 15px;
+            border-radius: 7px;
+        }
+
+        .menu ul li :hover {
+            color: #000;
+            background: #f6d9d9;
+        }
+
+        .Bus .heading h1 {
+            position: relative;
+            top: 120px;
+            text-align: center;
+            text-decoration: solid;
+            font-weight: 200;
+            font-size: 45px;
+            color: rgb(12, 12, 12);
+            text-decoration: double;
+        }
+
+        .Bus .hello {
+            text-align: center;
+        }
+
+        .Bus .hello .input1 input[type=text] {
+            position: relative;
+            top: 120px;
+            display: grid(3, 1fr);
+            grid-gap: 20px;
+            border: 2px solid black;
+            border-radius: 9px;
+            padding: 6px;
+            width: 200px;
+            height: 27px;
+        }
+
+        .Bus .hello .input1 input[type=Date] {
+            position: relative;
+            top: 120px;
+            margin-top: 5px;
+            border: 2px solid black;
+            border-radius: 9px;
+            padding: 6px;
+            width: 250px;
+            height: 27px;
+            background-color: #fdfdfd;
+        }
+
+        .hello {
+
+            display: grid(4, 1fr);
+            grid-gap: 30px;
+            padding: 50px 70px;
+            margin-left: 70px;
+            margin-right: 70px;
+            border-radius: 12px;
+            align-items: center;
+        }
+
+        button {
+            position: relative;
+            top: 140px;
+            background-color: rgb(248, 73, 73);
+            color: white;
+            padding: 13px 100px;
+            border: 0;
+            margin-top: 20px;
+            font-size: large;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #890303;
+        }
+
+        input::placeholder {
+            font-size: 20px;
+            text-align: center;
+            color: #890303;
+        }
+
+        .xyz {
+            font-size: 20px;
+            text-align: center;
+        }
+    .home-page-content .feature-list-wrap .feature-header{
+        display: flex;
+       
+    }
+    </style>
+</head>
+
+<body>
+    <div class="xy">
+        <nav>
+            <div class="menu">
+                <div class="logo"><a href="index.html"><b>MyTicket</b></a></div>
+                <ul>
+                    <li><a href="login.html"><i class="fa-solid fa-user"></i> Login/SignUp</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="booking">
+            <div class="Bus">
+                <div class="heading">
+                    <h1>TRAIN TICKET BOOKING</h1>
+                </div>
+                <div class="hello">
+                    <div class="input1">
+
+                        <input type="text" placeholder="From Station">
+                        <input type="text" placeholder="To Station">
+                        <input type="Date" class="xyz">
+
+                    </div>
+                    <div class="button">
+                        <form action="trainbook.html">
+                        <button>Search</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="feature-item1">
+
+        <div class="footer">
+            <div class="home-page-content"><div class="feature-list-wrap"><div class="feature-header"><h2>IRCTC Authorised Partner</h2></div><div class="feature-list"><div class="feature-item"><div><img width="50" height="50" src="https://www.confirmtkt.com/img/abhibus/home/confirm ticket.svg" class="features-img img-responsive lazyload" alt="IRCTC train ticket cancallations and refund"></div><div><h3>Get Train Tickets </h3><p>With our same train alternates and prediction feature, increase your chances of getting confirm train tickets.</p></div></div><div class="feature-item"><div><img width="50" height="50" src="https://www.confirmtkt.com/img/abhibus/home/upi.svg" class="features-img img-responsive lazyload" alt="IRCTC waitlist tickets prediction and alternative options"></div><div><h3>UPI Enable Secured Payment </h3><p>Payment on Confirmtkt is highly secured. Easy UPI and other multiple payment modes available.</p></div></div><div class="feature-item"><div><img width="50" height="50" src="https://www.confirmtkt.com/img/abhibus/home/free cancellation.svg" class="features-img img-responsive lazyload" alt="Secure IRCTC train ticket booking"></div><div><h3>Free Cancellation on Train Tickets </h3><p>Get a full refund on train tickets by opting our free cancellation feature.</p></div></div><div class="feature-item"><div><img width="50" height="50" src="https://www.confirmtkt.com/img/abhibus/home/support.svg" class="features-img img-responsive lazyload" alt="IRCTC train ticket booking customer support"></div><div><h3>Train Booking &amp; Enquiry Support </h3><p>24X7 customer support, for any train enquiry &amp; booking related queries call 08068243910.</p></div></div><div class="feature-item"><div><img width="50" height="50" src="https://www.confirmtkt.com/img/abhibus/home/refund.svg" class="features-img img-responsive lazyload" alt="Secure IRCTC train ticket booking"></div><div><h3>Instant Refund &amp; Cancellation </h3><p>Get an instant refund and book your next Train ticket easily.</p></div></div><div class="feature-item"><div><img width="50" height="50" src="https://www.confirmtkt.com/img/abhibus/home/running_status.svg" class="features-img img-responsive lazyload" alt="Live train running status"></div><div><h3>Live Train Status Tracking </h3><p>Train status &amp; notification of your Train tickets. </p></div></div></div></div></div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
